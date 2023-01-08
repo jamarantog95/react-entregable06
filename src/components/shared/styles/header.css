@@ -1,0 +1,34 @@
+.navbar {
+    background: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 2rem;
+    /* border: 2px solid #dcd9d9; */
+}
+
+.navbar__logo {
+    width: 100%;
+    padding: .8rem 1rem;
+    /* border-top: 4px solid #dcd9d9;
+    border-bottom: 4px solid #dcd9d9;
+    border-left: 4px solid #dcd9d9; */
+}
+
+.navbar__title {
+    color: #f85555;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.navbar__options,
+.navbar__options-itm {
+    display: flex;
+}
+
+.navbar__options-itm {
+    padding: .8rem 2rem;
+}
+
+.navbar__options-link {
+    color: #ababab;
+}

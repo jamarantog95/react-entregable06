@@ -1,0 +1,81 @@
+.login {
+    background: hsla(0, 1%, 72%, .1);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #515151;
+    padding: 2rem 0;
+}
+
+.login__container {
+    background: #ffffff;
+    max-width: 400px;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.login__main-title {
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 1.6;
+}
+
+.login__sub-title {
+    margin-top: 10px;
+    color: #2fa8f8;
+    text-align: center;
+    font-size: 15px;
+}
+
+.login__test {
+    background: #d8f5fd;
+    border-radius: 6px;
+    padding: 20px;
+
+    display: flex;
+    flex-direction: column;
+    gap: .6rem;
+}
+
+.login__test-title {
+    font-size: 1.1rem;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.login__form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    padding: 1rem 0;
+}
+
+.login__form-email,
+.login__form-pass {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+
+.login__form-lbl {
+    font-size: 1rem;
+}
+
+.login__form-inp {
+    font-size: 1rem;
+    padding: 6px 8px;
+    border: 1px solid rgba(0, 0, 0, .2);
+}
+
+.login__form-login {
+    padding: 9px;
+    margin: 10px 0;
+    background: #f85555;
+    color: #ffffff;
+    cursor: pointer;
+    font-size: .9rem;
+}
